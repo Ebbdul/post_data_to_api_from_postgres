@@ -7,11 +7,11 @@ from datetime import datetime
 app = Flask(__name__)
 
 conn = psycopg2.connect(
-    host="192.168.2.49",
-    port="5432",
-    database="HMS_source",
-    user="postgres",
-    password="Red*St0ne"
+    host="localhost",
+    port="port",
+    database="db",
+    user="usr",
+    password="pass"
 )
 
 conn.set_isolation_level(psycopg2.extensions.ISOLATION_LEVEL_AUTOCOMMIT)
