@@ -2,11 +2,11 @@ import psycopg2
 import requests
 import json
 conn = psycopg2.connect(
-    host="192.168.2.49",
-    port="5432",
-    database="HMS_source",
-    user="postgres",
-    password="Red*St0ne"
+    host="host,
+    port="port",
+    database="database",
+    user="user",
+    password="password"
 )
 
 conn.set_isolation_level(psycopg2.extensions.ISOLATION_LEVEL_AUTOCOMMIT)
